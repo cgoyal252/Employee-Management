@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.spring</groupId>
+	<artifactId>SpringBoot_Hello_Site</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>SpringBoot_Hello_Site</name>
+	<description>Demo project for Spring Boot Site</description>
+	<inceptionYear>2018</inceptionYear>
+	<developers>
+		<developer>
+			<name>Chirag Goyal</name>
+			<url>https://localhost:8080</url>
+			<email>chirag.goyal@infogain.com</email>
+			<organization>Infogain</organization>
+			<organizationUrl>https://www.infogain.com</organizationUrl>
+		</developer>
+	</developers>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.0.5.RELEASE</version>
+		<relativePath>r1</relativePath> <!-- lookup parent from repository -->
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-checkstyle-plugin</artifactId>
+				<configuration>
+					<skip>${checkstyle.skip}</skip>
+					<configLocation>${checkstyle.configUrl}</configLocation>
+					<failsOnError>false</failsOnError>
+					<enableRulesSummary>true</enableRulesSummary>
+					<includeTestSourceDirectory>true</includeTestSourceDirectory>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-project-info-reports-plugin</artifactId>
+				<version>2.9</version>
+				<configuration>
+					<dependencyDetailsEnabled>false</dependencyDetailsEnabled>
+					<dependencyLocationsEnabled>false</dependencyLocationsEnabled>
+				</configuration>
+				<!-- <reportSets> <reportSet> <reports> <report>modules</report> <report>distribution-management</report> 
+					<report>project-team</report> <report>mailing-list</report> <report>plugin-management</report> 
+					<report>plugins</report> <report>cim</report> <report>scm</report> <report>summary</report> 
+					<report>help</report> <report>index</report> </reports> </reportSet> </reportSets> -->
+			</plugin>
+
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.0.1</version>
+				<configuration>
+					<!-- Default configuration for all reports -->
+				</configuration>
+				<reportSets>
+					<reportSet>
+						<id>default</id>
+						<configuration>
+							<!-- Specific configuration for the given reports -->
+
+						</configuration>
+						<reports>
+							<report>javadoc</report>
+							<report>test-javadoc</report>
+						</reports>
+					</reportSet>
+					<!-- <reportSet> <id>aggregate</id> <configuration> Specific configuration 
+						for the given reports </configuration> <reports> <report>aggregate</report> 
+						</reports> </reportSet> -->
+				</reportSets>
+			</plugin>
+
+		</plugins>
+	</reporting>
+
+	<url>https://github.com/cgoyal252/SpringBoot_Site</url>
+
+	<organization>
+		<name>Infogain India</name>
+		<url>https://www.infogain.com</url>
+	</organization>
+
+	<scm>
+		<url>https://github.com/cgoyal252/SpringBoot_Site</url>
+		<developerConnection>scm:git:git@github.com:cgoyal252/SpringBoot_Site.git</developerConnection>
+		<tag>master</tag>
+		<connection>scm:git:git://github.com/cgoyal252/SpringBoot_Site.git</connection>
+	</scm>
+
+	<issueManagement>
+		<url>https://github.com/cgoyal252/SpringBoot_Site/issues</url>
+	</issueManagement>
+
+	<ciManagement>
+		<url>jenkins.com</url>
+		<system>jenkins</system>
+	</ciManagement>
+</project>

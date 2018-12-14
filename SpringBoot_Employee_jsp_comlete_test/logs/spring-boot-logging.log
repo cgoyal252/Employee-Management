@@ -1,0 +1,14 @@
+2018-11-16 08:21:26.660  WARN 3840 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10h39m9s216ms814µs977ns).
+2018-11-16 12:24:40.808  WARN 3840 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3h33m14s25ms163µs392ns).
+2018-11-16 13:50:58.842  WARN 3840 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=54m48s102ms990µs549ns).
+2018-11-16 16:01:48.339  WARN 3840 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h32m21s157ms436µs773ns).
+2018-11-16 16:34:17.503  WARN 3840 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2m28s511ms390µs397ns).
+2018-11-16 17:13:36.542  INFO 3840 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-11-16 17:13:36.542  INFO 3840 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-11-16 17:13:36.592  INFO 3840 --- [RMI TCP Connection(4)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5214386b: startup date [Tue Nov 13 20:48:08 IST 2018]; root of context hierarchy
+2018-11-16 17:13:37.407  INFO 3840 --- [RMI TCP Connection(4)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-11-16 17:13:37.466  INFO 3840 --- [RMI TCP Connection(4)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-11-16 17:13:37.467  INFO 3840 --- [RMI TCP Connection(4)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-11-16 17:13:37.653  INFO 3840 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-11-16 17:13:37.988  INFO 3840 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2018-11-16 17:13:38.002  INFO 3840 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.

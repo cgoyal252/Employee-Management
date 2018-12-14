@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+			<item value="jenkins.com"/>
+		</list>
+		<list key="ciManagementSystem">
+			<item value="jenkins"/>
+		</list>
+		<list key="issueManagementSystem">
+			<item value="github"/>
+		</list>
+		<list key="issueManagementUrl">
+			<item value="https://github.com/cgoyal252/SpringBoot_Site/issues"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\chirag.goyal\Downloads\spring-from-the-trenches-master\spring-from-the-trenches-master\create-pdfs-with-wkhtmltopdf"/>
+			<item value="C:\Users\chirag.goyal\Downloads\jacoco-maven-example"/>
+			<item value="C:\Users\chirag.goyal\Downloads\BahiKhataDiscoveryServer-master"/>
+			<item value="D:\WorkSpaces_September18\Employee_Management"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

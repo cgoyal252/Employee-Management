@@ -1,0 +1,43 @@
+{
+  "folders": [
+    {
+      "path": "C:\\Users\\chirag.goyal\\Downloads\\BahiKhataDiscoveryServer-master\\BahiKhataDiscoveryServer-master"
+    },
+    {
+      "path": "C:\\Users\\chirag.goyal\\Downloads\\jacoco-maven-example\\MathOperations"
+    },
+    {
+      "path": "D:\\WorkSpaces_September18\\Employee_Management\\RemoteSystemsTempFiles"
+    },
+    {
+      "path": "D:\\WorkSpaces_September18\\Employee_Management\\SpringBoot_Employee_Api"
+    },
+    {
+      "path": "D:\\WorkSpaces_September18\\Employee_Management\\SpringBoot_Employee_jsp_comlete"
+    },
+    {
+      "path": "D:\\WorkSpaces_September18\\Employee_Management\\SpringBoot_Employee_jsp_comlete_test"
+    },
+    {
+      "path": "C:\\Users\\chirag.goyal\\Documents\\Maven_Site_Example\\SpringBoot_Hello_Site"
+    },
+    {
+      "path": "D:\\WorkSpaces_September18\\Employee_Management\\SpringBoot_Hello_Site_PDf"
+    },
+    {
+      "path": "D:\\WorkSpaces_September18\\Employee_Management\\SpringBoot_Hello_Site_Sonar"
+    },
+    {
+      "path": "D:\\WorkSpaces_September18\\Employee_Management\\SpringBoot_RestClient"
+    },
+    {
+      "path": "D:\\WorkSpaces_September18\\Employee_Management\\prac"
+    }
+  ],
+  "settings": {
+    "javascript.referencesCodeLens.enabled": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "javascript.implicitProjectConfig.checkJs": true
+  }
+}

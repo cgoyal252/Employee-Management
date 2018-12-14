@@ -1,0 +1,16 @@
+[2018-11-13 19:26:51.905] [exthost1] [info] extension host started
+[2018-11-13 19:26:51.920] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-11-13 19:26:51.920] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\chirag.goyal\.codemix\engine\resources\app\extensions\debug-auto-launch\out\extension
+[2018-11-13 19:26:52.230] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-11-13 19:26:52.230] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\chirag.goyal\.codemix\engine\resources\app\extensions\emmet\dist\extension
+[2018-11-13 19:26:52.352] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-11-13 19:26:52.352] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\chirag.goyal\.codemix\engine\resources\app\extensions\merge-conflict\out\extension
+[2018-11-13 19:26:53.253] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-11-13 19:26:53.253] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\chirag.goyal\.codemix\engine\resources\app\extensions\search-rg\out\extension
+[2018-11-13 19:26:54.028] [exthost1] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2018-11-13 19:26:54.028] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\chirag.goyal\.vscode\extensions\formulahendry.auto-close-tag-0.5.6\out\src\extension
+[2018-11-13 19:26:54.169] [exthost1] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2018-11-13 19:26:54.169] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\chirag.goyal\.vscode\extensions\hookyqr.beautify-1.3.0\extension
+[2018-11-13 19:26:56.130] [exthost1] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"activationEvent":"*"}
+[2018-11-13 19:26:56.130] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\chirag.goyal\.vscode\extensions\zignd.html-css-class-completion-1.17.1\out\src\extension
+[2018-11-13 19:27:09.062] [exthost1] [info] eager extensions activated

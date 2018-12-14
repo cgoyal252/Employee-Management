@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.spring</groupId>
+	<artifactId>SpringBoot_Hello_Site</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>SpringBoot_Hello_Site</name>
+	<description>Demo project for Spring Boot Site</description>
+	<inceptionYear>2018</inceptionYear>
+	<developers>
+		<developer>
+			<name>Chirag Goyal</name>
+			<url>https://localhost:8080</url>
+			<email>chirag.goyal@infogain.com</email>
+			<organization>Infogain</organization>
+			<organizationUrl>https://www.infogain.com</organizationUrl>
+		</developer>
+	</developers>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.0.5.RELEASE</version>
+		<!-- lookup parent from repository -->
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+
+
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+		</dependency>
+
+
+	</dependencies>
+
+
+
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-maven-plugin</artifactId>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-site-plugin</artifactId>
+					<version>3.7.1</version>
+				</plugin>
+				<plugin>
+					<groupId>org.sonarsource.scanner.maven</groupId>
+					<artifactId>sonar-maven-plugin</artifactId>
+					<version>3.4.0.905</version>
+				</plugin>
+				<plugin>
+					<groupId>org.jacoco</groupId>
+					<artifactId>jacoco-maven-plugin</artifactId>
+					<version>0.7.7.201606060606</version>
+					<executions>
+						<execution>
+							<id>default-prepare-agent</id>
+							<goals>
+								<goal>prepare-agent</goal>
+							</goals>
+						</execution>
+						<execution>
+							<id>report</id>
+							<phase>prepare-package</phase>
+							<goals>
+								<goal>report</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+
+
+
+			</plugins>
+		</pluginManagement>
+	</build>
+
+
+
+
+	<organization>
+		<name>Infogain India</name>
+		<url>https://www.infogain.com</url>
+	</organization>
+
+
+	<contributors>
+		<contributor>
+			<email>chirag.goyal@infogain.com</email>
+			<organization>Infogain</organization>
+			<organizationUrl>https://www.infogain.com</organizationUrl>
+		</contributor>
+	</contributors>
+	<profiles>
+		<profile>
+			<id>only-eclipse</id>
+			<activation>
+				<property>
+					<name>m2e.version</name>
+				</property>
+			</activation>
+			<build>
+				<pluginManagement>
+					<plugins>
+						<plugin>
+							<groupId>org.eclipse.m2e</groupId>
+							<artifactId>lifecycle-mapping</artifactId>
+							<version>1.0.0</version>
+							<configuration>
+							</configuration>
+						</plugin>
+					</plugins>
+				</pluginManagement>
+			</build>
+		</profile>
+	</profiles>
+</project>

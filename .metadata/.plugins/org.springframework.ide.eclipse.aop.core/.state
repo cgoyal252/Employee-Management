@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SpringBoot_RestClient"/>
+<aop-project name="SpringBoot_Employee_Api"/>
+<aop-project name="SpringBoot_Hello_Site_Sonar"/>
+<aop-project name="BahiKhataDiscoveryServer"/>
+<aop-project name="SpringBoot_Employee_jsp_comlete_test"/>
+<aop-project name="SpringBoot_Hello_Site"/>
+<aop-project name="SpringBoot_Hello_Site_PDf"/>
+<aop-project name="SpringBoot_Employee_jsp_comlete"/>
+</aop-reference-model>

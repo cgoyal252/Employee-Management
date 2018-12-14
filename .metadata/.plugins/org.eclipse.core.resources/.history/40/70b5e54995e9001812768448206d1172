@@ -1,0 +1,24 @@
+package com.prac;
+
+class A
+{
+	privatevoid demo()
+	{
+		System.out.println("AA");
+	}
+		
+}
+
+public class TestOverriding extends A {
+
+	public void demo()
+	{
+		System.out.println("Test");
+	}
+	
+	public static void main(String[] args) {
+		A a=new TestOverriding();
+		a.demo();
+	}
+	
+}
